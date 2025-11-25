@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex CaseStudy"] 1764024860.79334 "CaseStudy.aux" "CaseStudy.bbl" "CaseStudy" 1764024862.01722 0
+["bibtex CaseStudy"] 1764024860.79334 "CaseStudy.aux" "CaseStudy.bbl" "CaseStudy" 1764040715.23061 0
   "./references.bib" 1764024859 159 05cb599387e371e6f029045d14023392 ""
   "C:/Users/CeceS/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/plain.bst" 1291864736 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "CaseStudy.aux" 1764024861 12947 6dfe8b7d019515a1092d25142032f98a "pdflatex"
+  "CaseStudy.aux" 1764040714 12947 6dfe8b7d019515a1092d25142032f98a "pdflatex"
   (generated)
   "CaseStudy.bbl"
   "CaseStudy.blg"
   (rewritten before read)
-["pdflatex"] 1764024861.09266 "c:/Users/CeceS/OneDrive/College/Main/2025_Fall/CSC_4585-Software_and_Systems_Security/Assignments/DataBreachCaseStudy/CaseStudy.tex" "CaseStudy.pdf" "CaseStudy" 1764024862.0179 0
+["pdflatex"] 1764040714.34876 "c:/Users/CeceS/OneDrive/College/Main/2025_Fall/CSC_4585-Software_and_Systems_Security/Assignments/DataBreachCaseStudy/CaseStudy.tex" "CaseStudy.pdf" "CaseStudy" 1764040715.23119 0
   "C:/Users/CeceS/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1764024123 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/CeceS/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1095.pk" 1764024058 28976 0113d24c2a5229b1c1d79b6db1a080a8 ""
   "C:/Users/CeceS/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1764024124 31952 a332c43bcaeff73b13872d507c5d95ea ""
@@ -98,11 +98,11 @@
   "C:/Users/CeceS/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/CeceS/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1751104012 9684 a33a14b82ce60d6e77cb9be689d79ee6 ""
   "C:/Users/CeceS/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "CaseStudy.aux" 1764024861 12947 6dfe8b7d019515a1092d25142032f98a "pdflatex"
+  "CaseStudy.aux" 1764040714 12947 6dfe8b7d019515a1092d25142032f98a "pdflatex"
   "CaseStudy.bbl" 1764024861 185 fafdab62a831506c280c1ceae924a2ab "bibtex CaseStudy"
-  "CaseStudy.tex" 1764024657 3015 2949d2bcdbb8d9347858751128993dde ""
-  "CaseStudy.toc" 1764024861 2611 2f6adb86cdb0c4b4133871bbbb6a57b6 "pdflatex"
-  "c:/Users/CeceS/OneDrive/College/Main/2025_Fall/CSC_4585-Software_and_Systems_Security/Assignments/DataBreachCaseStudy/CaseStudy.tex" 1764024657 3015 2949d2bcdbb8d9347858751128993dde ""
+  "CaseStudy.tex" 1764040713 2743 ab3ebfcf09449e9dddeb2f0816be9b3c ""
+  "CaseStudy.toc" 1764040714 2611 2f6adb86cdb0c4b4133871bbbb6a57b6 "pdflatex"
+  "c:/Users/CeceS/OneDrive/College/Main/2025_Fall/CSC_4585-Software_and_Systems_Security/Assignments/DataBreachCaseStudy/CaseStudy.tex" 1764040713 2743 ab3ebfcf09449e9dddeb2f0816be9b3c ""
   (generated)
   "CaseStudy.aux"
   "CaseStudy.log"
