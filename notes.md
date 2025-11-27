@@ -43,7 +43,7 @@
   - extract its Azure system settings
   - retriece detailed record information
   - create and insert a particular user, or delete the same user
-  - data returned to the system interacting with LEMURLOOT is gzip compressed
+  - data returned to the system interacting with `LEMURLOOT` is gzip compressed
 - How the attack goes:
   - CLOP uses vulnerability to access MOVEit software
   - deploys `LEMURLOOT` web shell and uses file names found in MOVEit Transfer (MT) software such as `human.aspx`
@@ -66,17 +66,68 @@
       - if `fileid` and `folderid` != NULL, malware retrieves file within the fields, gzip compresses it, and returns it to attacker
       - if `fileid` and `folderid` = NULL, `LEMURLOOT` attempts to find an existing account with permission level "30" and `InstID` = [value set from `X-siLock-Step1`]
         - if unsuccessful it creates a new account with a randomly generated username and with LoginName and RealName as 'Health Check Service'; account is then inserted into an active MT application session
-
-
-
 ## Huntress by John Hammond <3
 ### https://www.huntress.com/blog/moveit-transfer-critical-vulnerability-rapid-response
 
+- Progress brought down MOVEit Cloud after exploitation attempts were discovered/detected (possibly June 1st of 2nd)
+- initial phase is through SQL injection which leads to arbitrary code execution
+  - leads to intant deploy of ransomware under MOVEit service account 'moveitsvc' which is a local administrators group and they could then disable antivirus protections
+- **Cl0p is also called Lace Tempest by Microsoft**
+- *omg this is sooo much*
+
 ## BBC
 ### https://www.bbc.com/news/technology-65814104
+- Victims:
+  - BBC
+    - stolen data incl staff ID numbers, DOBs, addresses, national insurance numbers (?)
+  - British Airways
+    - some may have bank details stolen 
+  - Boots
+  - Aer Lingus
+  - Zellis, payroll services provider
+    - data from eight of its client firms had been stolen
+  - mostly people in the US
+
 
 ## CybersecurityDive
 ### https://www.cybersecuritydive.com/news/moveit-breach-timeline/687417/
+- 2,650+ organization impacted
+- five additional vulnerabilities were discovered after
+- victims:
+  - National Student Clearinghouse
+  - PBI Research Services
+  - TIAA
+  - Zellis
+- **timeline**
 
 ## HackTheBox (for understanding)
 ### https://www.hackthebox.com/blog/cve-2023-34362-explained
+- Cl0p exploited the CVE 36934
+- affected approx 130 victims over 10 days
+- the web shell, `LEMURLOOT`, allowed attackers to:
+  - enumerate (scan) underlying SQL databse
+  - store and retrieve files from MT system
+  - create a new administrator privileged acount
+- vulnerability is caused by `UserGetUsersWithEmailAddress()` not being cleaned
+  - within UserEngine (`UserEngine.UserGetUsersWithEmailAddress()`) defined in `MOVEit.DMZ.Class.Lib`
+- The `SILHttpSessionWrapper.SetAllSessionVarsFromHeaders()` function (completely removed in patched MOVEit Transfer versions) allows the caller to set arbitrary session variables from HTTP request headers starting with `X-siLock-SessVar`.
+  - called by machine2.aspx's SILMachine2
+  - incorrectly parses header with `action=m2` parameter in moveitisapi.dll (accessible from otuside) allows to forward arbitrary data to machine2.aspx which bypasses the localhost restriction
+- after session variables have been set, `LoadFromSession()` from SILGuestAccess is called by makiung a request to guestaccess.aspx
+  
+    To trigger SQL injection, the payload is first put into the `MyPkgSelfProvisionedRecips` environment variable through the `moveitisapi.dll?action=m2` > SILMachine2 (machine2.aspx) > `SetAllSessionVarsFromHeaders()` path, then copied to this .`SelfProvisionedRecips` via guestaccess.aspx.
+
+    The `SelfProvisionedRecips` value is then parsed as a comma-separated list of email addresses and passed to `UserGetUsersWithEmailAddress()` unsanitized, *to be then inserted into the constructed SQL query as the AND Email='...' value, resulting in the execution of arbitrary queries.*
+
+## CVE Details
+### https://www.cvedetails.com/cve/CVE-2023-36934/
+CWE ids for CVE-2023-36934
+
+    CWE-89 Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')	
+    The product constructs all or part of an SQL command using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended SQL command when it is sent to a downstream component. Without sufficient removal or quoting of SQL syntax in user-controllable inputs, the generated SQL query can cause those inputs to be interpreted as SQL instead of ordinary user data.
+    Assigned by: nvd@nist.gov (Primary)
+
+## CWE (Common Weakness Enumeration)
+### https://cwe.mitre.org/data/definitions/89.html
+
+    The product constructs all or part of an SQL command using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended SQL command when it is sent to a downstream component. Without sufficient removal or quoting of SQL syntax in user-controllable inputs, the generated SQL query can cause those inputs to be interpreted as SQL instead of ordinary user data. 
