@@ -1,22 +1,23 @@
 # Fdb version 4
-["bibtex CaseStudy"] 1764219811.19058 "CaseStudy.aux" "CaseStudy.bbl" "CaseStudy" 1764219812.30174 0
+["bibtex CaseStudy"] 1764221973.48318 "CaseStudy.aux" "CaseStudy.bbl" "CaseStudy" 1764221985.92915 0
   "./references.bib" 1764214382 2632 1bb6fd7d337dcd695d22bc2221ac8917 ""
   "C:/Users/CeceS/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/plain.bst" 1291864736 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "CaseStudy.aux" 1764219811 12881 35e6f3f993d46c9265968ac39156aca6 "pdflatex"
+  "CaseStudy.aux" 1764221985 11868 dc980a70d612d4f1d1ffb8e9c2cc4661 "pdflatex"
   (generated)
   "CaseStudy.bbl"
   "CaseStudy.blg"
   (rewritten before read)
-["pdflatex"] 1764219811.40047 "c:/Users/CeceS/OneDrive/College/Main/2025_Fall/CSC_4585-Software_and_Systems_Security/Assignments/DataBreachCaseStudy/CaseStudy.tex" "CaseStudy.pdf" "CaseStudy" 1764219812.3024 0
+["pdflatex"] 1764221984.89527 "c:/Users/CeceS/OneDrive/College/Main/2025_Fall/CSC_4585-Software_and_Systems_Security/Assignments/DataBreachCaseStudy/CaseStudy.tex" "CaseStudy.pdf" "CaseStudy" 1764221985.92981 0
   "C:/Users/CeceS/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1764024123 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/CeceS/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1095.pk" 1764024058 28976 0113d24c2a5229b1c1d79b6db1a080a8 ""
   "C:/Users/CeceS/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1764024124 31952 a332c43bcaeff73b13872d507c5d95ea ""
   "C:/Users/CeceS/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1764024054 40136 5deec06be78487a15038f5dd1742298c ""
   "C:/Users/CeceS/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1728.pk" 1764024056 49100 f153e94c618cc28fc8f312515db374bc ""
-  "C:/Users/CeceS/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1095.pk" 1764024057 26228 ba503c05f98ccbf2c4c4fecf1380cf12 ""
   "C:/Users/CeceS/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1200.pk" 1764024055 28440 74347a0d087e656cb2468c6a1a74f5ea ""
   "C:/Users/CeceS/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1440.pk" 1764024059 34320 392caad697434e5616f0e2365b0ae062 ""
   "C:/Users/CeceS/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm2074.pk" 1764024060 53736 6f63545a7ef392805873d3b1245acb1a ""
+  "C:/Users/CeceS/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecti1200.pk" 1764024229 39120 c87683d6a482fa94de19271080399a4d ""
+  "C:/Users/CeceS/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1095.pk" 1764221456 21972 93e2cfb7596f28d5ad5ec1c62ed6e552 ""
   "C:/Users/CeceS/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1200.pk" 1764024564 24152 811bbf50ef286c3de0115d37fe24818c ""
   "C:/Users/CeceS/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1760998171 13321623 382f4c0bb5a0f1d8102c30c74ee52f48 ""
   "C:/Users/CeceS/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecbx1095.tfm" 993061956 3228 aacd2ac2d814480e4422ad7e830fd2d4 ""
@@ -28,6 +29,8 @@
   "C:/Users/CeceS/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1440.tfm" 993062128 3168 3bd7b08ba4330af81521911744311212 ""
   "C:/Users/CeceS/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1728.tfm" 993062128 3168 11457c8185ce67fb79662ba8b03d6db1 ""
   "C:/Users/CeceS/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm2074.tfm" 993062130 3184 b2541675eba9fa86d240ec0ecc913558 ""
+  "C:/Users/CeceS/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecti1200.tfm" 993062324 2832 28bbd97ca29f46e76c87a158a9915203 ""
+  "C:/Users/CeceS/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ectt1095.tfm" 993062342 1352 fa21dcb5ddc7d1dc47d14cd897fdeb0f ""
   "C:/Users/CeceS/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ectt1200.tfm" 993062344 1348 c48a0620e07683860afba1730adf9e53 ""
   "C:/Users/CeceS/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/CeceS/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -98,11 +101,11 @@
   "C:/Users/CeceS/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/CeceS/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1751104012 9684 a33a14b82ce60d6e77cb9be689d79ee6 ""
   "C:/Users/CeceS/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "CaseStudy.aux" 1764219811 12881 35e6f3f993d46c9265968ac39156aca6 "pdflatex"
-  "CaseStudy.bbl" 1764219811 586 52ecc4abe2f8a825a2247bbb7cdac029 "bibtex CaseStudy"
-  "CaseStudy.tex" 1764219809 6109 3857c9f97db5699d6b49bbfa89bd7af9 ""
-  "CaseStudy.toc" 1764219811 2598 0c4c6482d2bc21e4bf053f2014bf68c8 "pdflatex"
-  "c:/Users/CeceS/OneDrive/College/Main/2025_Fall/CSC_4585-Software_and_Systems_Security/Assignments/DataBreachCaseStudy/CaseStudy.tex" 1764219809 6109 3857c9f97db5699d6b49bbfa89bd7af9 ""
+  "CaseStudy.aux" 1764221985 11868 dc980a70d612d4f1d1ffb8e9c2cc4661 "pdflatex"
+  "CaseStudy.bbl" 1764221973 620 7b6debd5f482b62a6f9aa1dc36ca777e "bibtex CaseStudy"
+  "CaseStudy.tex" 1764221984 6110 cffddfc9a046a6f424acd9b57793feee ""
+  "CaseStudy.toc" 1764221985 2214 b9888c46a1698f72e888b1f8691bbab4 "pdflatex"
+  "c:/Users/CeceS/OneDrive/College/Main/2025_Fall/CSC_4585-Software_and_Systems_Security/Assignments/DataBreachCaseStudy/CaseStudy.tex" 1764221984 6110 cffddfc9a046a6f424acd9b57793feee ""
   (generated)
   "CaseStudy.aux"
   "CaseStudy.log"
