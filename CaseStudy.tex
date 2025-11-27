@@ -42,24 +42,40 @@ COME BACK
 \newpage
 
 % Main sections
-\section{Incident Details}
+
 % date and time of the incident
 % description of the breach
 % affected systems and data
+\section{Incident Details}
 \subsection{Background}
+The MOVEit Transfer data breach was a cybersecurity even carried out by Cl0p, a cybercriminal group tied to Russia, in June 2023. The breach exploited an SQLi vulnerability in the MOVEit software and allowed the attackers to gain access to sensitive information. This impacted at least 130 organizations and possible so many as 2,500+ ranging from government to private sector entities in the span of 10 days \cite{HTB2023-34362}.
 \subsection{Objectives}
 
 \section{Root Cause Analysis}
 % description of the cause of the breach
 \subsection{Company Profile}
+MOVEit Transfer is a file transfer software from Progress Sofware. It is typically used by organization to transfer files securely both internally and externally. MOVEit meets regulatory compliance requirements for government agencies and other industries \cite{Progress_MOVEit_Privacy_2022}. This widespread use exacerbated the breach's impact.
 \subsection{Incident Timeline}
 \subsection{Affected Data}
 
 \section{Breach Detection and Response Timeline}
 % timeline of events from detection to resolution
-\subsection{Attack Vector}
-\subsection{Security Vulnerabilities}
-\subsection{Exploitation Methods}
+\subsection{Discovery}
+The incident began on May 28th, when a customer called Progress Software to report unusual activty in their MOVEit instance. Two days later, on May 31st, Progress disclosed the zero-day vulnerability in MOVEit. On June 1st, multiple threat intelligence agencies shared indicators of compromise (IOCs) related to the vulnerability. Mandiant Consulting CTO Charles Carmakal described, "Mass exploitation and broad data theft has occurred over the past few days." Progress urged customers to apply enact mitigation measures such as disabling HTTP and HTTPs traffic.
+
+\subsection{Mobilization and Response}
+On June 2nd, MITRE identified the vulnerability as CVE-2023-34362 and more than 3,000 MOVEit hosts were found to be exposed before the vulnerability was disclosed/patched. Two days later, on June 4th, Microsoft identified the attack as the work of Cl0p, a Russian cybercriminal group. (Microsoft named the actor Lace Tempest according to their naming conventions.)
+
+Victims including British Airways, the BBC, and Novia Scotia's government began to disclose to their customers that their data had been compromised. Payroll Provider Zellis released a statement saying, "We can confirm that a small number of our customers have been impacted by this global issue and we are actively working to support them." Trustwave, a security services provider, reported that, "Trustwave has seen activity of source IPs recently exploiting the MOVEit application since at least February." Huntress, a cybersecurity company, was able to recreate the attack and show the webshell that was previously noted as part of the attack is only optional and may not be used in all cases.
+
+\subsection{Resolution}
+On June 6th, Cl0p published a statement in which they claimed responsibility for the attack and exfiltrated data from hundreds of organizations. In their statement, they set a deadline of June 14th for victims to reach out and start neogitations. A number of organizations including CISA, CrowdStrike, Mandiant, Microsoft, Hundtress, and Rapid7 becan assisting Progress in their response and investigations. On June 7th, CIAS nad the FBI issued a joint advisory on the MOVEit vulnerability and exploitation. On June 8th, Kroll released a risk analysis that estimated the exploitation began as far back as June 2021.
+
+On June 9th, Progress confirmed Huntresses' discovery of new SQL vulnerabilities in MOVEit and isued patches for them along with a statement that there was no evidence that the vulnerabilities were exploited. Two days later, on June 11th, those new SQL injections were assigned a CVE with a severity rating of 9.1. 
+
+Cl0p's deadline passed and they released the names of a dozen victims.
+
+Progress released a patch for a new vulnerability on June 15th.
 
 \section{Impact Assessment}
 % affected parties
@@ -95,7 +111,6 @@ COME BACK
 \section{Conclusion}
 % sumamrize main findings and emphasize lessons learned
 
-This case study demonstrates the critical importance of robust cybersecurity measures. \cite{smith2024security}
 % sumamrize main findings and emphasize lessons learned
 
 % Bibliography
