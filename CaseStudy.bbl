@@ -138,4 +138,12 @@ TechCrunch.
   2024.
 \newblock Accessed: 2025-03-02.
 
+\bibitem{NYTimes_2023_MOVEit}
+{The New York Times}.
+\newblock Russian ransomware cyberattack cl0p moveit.
+\newblock
+  \url{https://www.nytimes.com/2023/06/15/us/politics/russian-ransomware-cyberattack-clop-moveit.html},
+  2023.
+\newblock accessed: 2025-11-26.
+
 \end{thebibliography}

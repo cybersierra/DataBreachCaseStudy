@@ -166,10 +166,9 @@ INPUT C:\Users\CeceS\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\sym
 INPUT C:\Users\CeceS\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\CeceS\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\CeceS\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Users\CeceS\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 OUTPUT CaseStudy.toc
+INPUT C:\Users\CeceS\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\CeceS\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1440.tfm
-INPUT C:\Users\CeceS\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1200.tfm
 INPUT .\CaseStudy.bbl
 INPUT .\CaseStudy.bbl
 INPUT CaseStudy.bbl
@@ -177,8 +176,6 @@ INPUT C:\Users\CeceS\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt120
 INPUT CaseStudy.aux
 INPUT C:\Users\CeceS\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk
 INPUT C:\Users\CeceS\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk
-INPUT C:\Users\CeceS\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
-INPUT C:\Users\CeceS\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
 INPUT C:\Users\CeceS\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
 INPUT C:\Users\CeceS\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
 INPUT C:\Users\CeceS\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk

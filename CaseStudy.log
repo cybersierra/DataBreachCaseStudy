@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.20)  3 DEC 2025 12:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.20)  3 DEC 2025 13:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -331,15 +331,15 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
  (C:\Users\CeceS\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (CaseStudy.toc
-
-[1
-
-{C:/Users/CeceS/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
+) (CaseStudy.toc)
 \tf@toc=\write3
 \openout3 = `CaseStudy.toc'.
 
 
+
+[1
+
+{C:/Users/CeceS/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 
 [2]
 
@@ -360,13 +360,13 @@ Underfull \hbox (badness 1590) in paragraph at lines 28--34
  []
 
 
+
+[7]
 Underfull \hbox (badness 1152) in paragraph at lines 61--67
 []\T1/cmr/m/n/12 Emsisoft.  Un-pack-ing the moveit breach: Statis-tics and anal-y-sis.  []$\T1/cmtt/m/n/12 https : / /
  []
 
 
-
-[7]
 Underfull \hbox (badness 1648) in paragraph at lines 109--115
 []\T1/cmr/m/n/12 Progress Soft-ware.  Moveit trans-fer and moveit cloud vul-ner-a-bil-ity.  []$\T1/cmtt/m/n/12 https :
  []
@@ -381,26 +381,28 @@ Underfull \hbox (badness 3449) in paragraph at lines 125--131
 []\T1/cmr/m/n/12 Progress Soft-ware.  Progress an-nounces con-clu-sion of sec in-ves-ti-ga-tion into
  []
 
-)
 
-[8] (CaseStudy.aux)
+
+[8])
+
+[9] (CaseStudy.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 10817 strings out of 468081
- 164913 string characters out of 5425788
- 580402 words of memory out of 5000000
- 39300 multiletter control sequences out of 15000+600000
- 643228 words of font info for 81 fonts, out of 8000000 for 9000
+ 10816 strings out of 468081
+ 164922 string characters out of 5425788
+ 582444 words of memory out of 5000000
+ 39299 multiletter control sequences out of 15000+600000
+ 642544 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,6n,79p,987b,556s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/CeceS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-Output written on CaseStudy.pdf (8 pages, 190238 bytes).
+ <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/CeceS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+Output written on CaseStudy.pdf (9 pages, 182903 bytes).
 PDF statistics:
- 652 PDF objects out of 1000 (max. 8388607)
- 54 named destinations out of 1000 (max. 500000)
- 209 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 627 PDF objects out of 1000 (max. 8388607)
+ 55 named destinations out of 1000 (max. 500000)
+ 201 words of extra memory for PDF output out of 10000 (max. 10000000)
 
