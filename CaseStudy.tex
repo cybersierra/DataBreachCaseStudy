@@ -1,6 +1,8 @@
+\PassOptionsToPackage{hyphens}{url}
 \documentclass[12pt]{article}
 
 % Packages
+
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{geometry}
@@ -11,7 +13,13 @@
 \usepackage{cite}
 \usepackage{url}
 \usepackage{hyperref}
+\usepackage{url}
+\Urlmuskip=0mu plus 1mu
 \usepackage{bookmark}
+\usepackage[hyphens]{url}
+
+\def\UrlBreaks{\do\/\do-}
+
 
 % Page setup
 \geometry{
@@ -28,6 +36,7 @@
 \date{\today}
 
 \begin{document}
+\sloppy
 
 % Title page
 \maketitle
@@ -72,19 +81,37 @@ Progress released a patch for a new vulnerability on June 15th. \cite{Cybersecur
 
 \section{Impact Assessment}
 \subsection{Affected Parties}
+The MOVEit file transfer software consists of infrastructure primarily built for use by large organizations, meaning individual use of the software is uncommon. The individuals affected were those whose data was handled by organizations using the software. In total, 2,773 organizations were affected, including governments, financial institutions, and companies in both the private and public sectors. Across these organizations, 95,788,491 individuals were impacted by the breach. Organizations with the largest numbers of affected individuals include Maximus with 11.3 million, Welltok with 10 million, and Delta Dental of California and its affiliates with 6.9 million.
+
+The majority of affected organizations are located in the United States, accounting for 78.9\% of victims, followed by Canada at 13.5\% and Germany at 1.3\% \cite{emsisoft_moveit_2023}.
+
 \subsection{Data Sensitivity and Potential Harm}
+The sensitive data involved in the breach includes the files that were being transferred through the application itself, specifically files stored in Microsoft Azure Blob cloud storage. The types of data included any kind of sensitive information, from individual PII (addresses, dates of birth, Social Security numbers, sensitive ID-type data, etc.) to specific company data such as financial records and internal business information.
+
+Examples of breached data that posed potential harm for individuals:
+- The online healthcare platform Welltok released statements admitting that the breach impacted health plan data from multiple hospitals and medical organizations. Individual healthcare data is an expensive commodity among malicious actors on dark-web forums \cite{cybernews_welltok_2023}. 
+- Amazon released official statements describing the breach's impact on employee data. Leaked employee data included work contact information such as email addresses, desk phone numbers, and building locations \cite{techcrunch_amazon_2024}.
+- Information from government organizations and agencies, such as DMVs, was targeted and likely exposed highly confidential data. For example, individuals with a Louisiana driver’s license were at risk of having sensitive PII leaked, such as driver’s license numbers, Social Security numbers, and vehicle registration information \cite{axios_louisiana_2023}. 
+
 \subsection{Financial and Operational Impact}
+The estimated cost of the data breach among all parties can be placed at a total of \\ \$15,805,101,015 USD. This is based on the average cost of a data breach per person, at \$165. This is a low estimate of the total financial impact of the data breach, as it does not account for the loss of customers a company with leaked data might experience. It also does not account for individuals who may be affected multiple times \cite{emsisoft_moveit_2023}.
+
+For internal organizational operations, many companies halted their use of MOVEit entirely or implemented strengthened security controls, ensuring that future data transfers were handled through more secure and closely monitored channels.
 
 \section{Notification and Communication}
 \textit{steps taken to notify affected parties}
+Notifications were handled by individual victim organizations. For instance, the State of Maine contacted affected victims in November 2023 through news media press releases across the country, letter mail, and email \cite{maine_state_moveit_2023}. Notification letters normally included information about what personal data was exposed and offered suggestions on how to avoid identity theft. Similarly, CMS and Maximus mailed letters to about 612,000 Medicare beneficiaries offering free credit monitoring services for 24 months from Experian \cite{cms_moveit_2023}. Many organizations took two to six weeks between the time they learned of the breach and the time they notified individuals \cite{bankinfo_moveit_2024}, which raised concerns about the timeliness of communications and increased risks for affected individuals.
 \subsection{Immediate Response}
 \subsection{Ongoing Communication}
 
 \section{Mitigation and Remediation Efforts}
 \textit{what actions were taken immediately to contain the brach and any longer-term security measures}
 \subsection{Immediate Actions}
+Progress Software quickly began investigating the issue, notifying MOVEit customers and releasing a security patch within 48 hours of discovering the vulnerability on May 31, 2023 \cite{progress_trust_moveit_2023}. Companies were advised to block HTTP and HTTPS traffic to their MOVEit Transfer systems on ports 80 and 443 until the patches were installed \cite{sbs_moveit_2023}. Administrators were also urged to review activity logs for any unauthorized file downloads and to delete suspicious or unauthorized user accounts from their systems
 \subsection{Third Party Involvement}
+Progress received assistance in their response and ongoing investigations from a number of organizations, including CISA, CrowdStrike, Mandiant, Microsoft, Huntress, and Rapid7 [6]. These cybersecurity companies assisted in locating signs of compromise and gave impacted companies advice on how to recognize and stop the attacks.
 \subsection{Newly Discovered Vulnerabilities and Patches}
+on June 9, 2023, during a third-party code review, a patch was found for a second vulnerability, CVE-2023-35036 \cite{hadrian_moveit_2023}. Further patches for recently identified vulnerabilities, such as CVE-2023-36934, CVE-2023-36932, and CVE-2023-36933, were released in the later half of June 2023 \cite{hipaajournal_moveit_2023}.
 
 \section{Recommendations for Future Prevention}
 \textit{based on incident's root cause, list recommendations for improving security posture}
@@ -93,8 +120,11 @@ Progress released a patch for a new vulnerability on June 15th. \cite{Cybersecur
 \section{Legal and Compliance Considerations}
 \textit{address any legal implications, such as comliance with data protections laws and regulatory penalties}
 \subsection{They were already compliant}
+MOVEit Transfer was designed to meet regulatory compliance requirements for government agencies and industries handling sensitive data. However, the breach raised significant compliance concerns under data protection laws. GDPR penalties can run as high as 20 million euros or 4\% of global turnover for non-compliance, requiring notification within 72 hours of breach occurrence \cite{progress_gdpr_2023}. Many affected organizations had to ensure they met notification requirements under various state and federal laws.
 \subsection{Legal Impact}
+Progress Software became party to at least 144 class-action lawsuits, which were consolidated in U.S. District Court for the District of Massachusetts \cite{cyberdive_moveit_2024}. On July 31, 2025, the court largely denied motions to dismiss, allowing claims of negligence, breach of contract, unjust enrichment, and state consumer protection violations to proceed \cite{firstclassdefense_moveit_2024}. Plaintiffs alleged that Progress and affected organizations failed to implement adequate cybersecurity measures.
 \subsection{Penalties}
+Progress received an SEC subpoena on October 2, 2023, but the SEC later concluded its investigation and notified Progress it does not intend to recommend enforcement action \cite{progress_investor_2024}. Expenses related to the MOVEit vulnerability grew from \$1 million to \$3 million over two quarters, not including \$1.9 million in insurance recoveries \cite{cyberdive_moveit_2024}.
 
 \section{Conclusion}
 \textit{summarize main findings and emphasize lessons learned}

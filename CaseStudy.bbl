@@ -1,4 +1,36 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{axios_louisiana_2023}
+Axios.
+\newblock Louisiana cyberattack: Dmv data exposed in moveit breach.
+\newblock
+  \url{https://www.axios.com/local/new-orleans/2023/06/16/louisiana-cyberattack-dmv-moveit},
+  2023.
+\newblock Accessed: 2025-03-02.
+
+\bibitem{bankinfo_moveit_2024}
+BankInfoSecurity.
+\newblock Latest moveit data breach victim tally: 455 organizations.
+\newblock
+  \url{https://www.bankinfosecurity.com/latest-moveit-data-breach-victim-tally-455-organizations-a-22650},
+  2024.
+\newblock Accessed: 2025-03-02.
+
+\bibitem{cybernews_welltok_2023}
+CyberNews.
+\newblock Welltok moveit breach impacts millions.
+\newblock
+  \url{https://cybernews.com/news/welltok-moveit-breach-impacts-millions/},
+  2023.
+\newblock Accessed: 2025-03-02.
+
+\bibitem{sbs_moveit_2023}
+SBS CyberSecurity.
+\newblock Threat advisory: Moveit transfer zero-day vulnerability.
+\newblock
+  \url{https://sbscyber.com/blog/threat-advisory-moveit-transfer-zero-day-vulnerability},
+  2023.
+\newblock Accessed: 2025-03-02.
 
 \bibitem{CybersecurityDive_MOVEit}
 {Cybersecurity Dive}.
@@ -8,6 +40,63 @@
   2023.
 \newblock accessed: 2025-11-26.
 
+\bibitem{firstclassdefense_moveit_2024}
+First~Class Defense.
+\newblock Moveit data breach litigation: District of massachusetts allows
+  claims to proceed.
+\newblock
+  \url{https://www.firstclassdefense.com/moveit-data-breach-litigation-district-of-massachusetts-allows-bellwether-negligence-and-consumer-protection-claims-to-proceed/},
+  2024.
+\newblock Accessed: 2025-03-02.
+
+\bibitem{cyberdive_moveit_2024}
+Cybersecurity Dive.
+\newblock Progress faces legal liabilities from moveit breach.
+\newblock
+  \url{https://www.cybersecuritydive.com/news/progress-moveit-legal-liabilities/720988/},
+  2024.
+\newblock Accessed: 2025-03-02.
+
+\bibitem{emsisoft_moveit_2023}
+Emsisoft.
+\newblock Unpacking the moveit breach: Statistics and analysis.
+\newblock
+  \url{https://www.emsisoft.com/en/blog/44123/unpacking-the-moveit-breach-statistics-and-analysis/},
+  2023.
+\newblock Accessed: 2025-03-02.
+
+\bibitem{cms_moveit_2023}
+Centers for Medicare \& Medicaid~Services.
+\newblock Cms responding to data breach of contractor.
+\newblock
+  \url{https://www.cms.gov/newsroom/press-releases/cms-responding-data-breach-contractor},
+  2023.
+\newblock Accessed: 2025-03-02.
+
+\bibitem{hadrian_moveit_2023}
+Hadrian.
+\newblock Moveit cyberattacks: Timeline of the largest hack of 2023.
+\newblock
+  \url{https://hadrian.io/blog/moveit-cyberattacks-timeline-of-the-largest-hack-of-2023},
+  2023.
+\newblock Accessed: 2025-03-02.
+
+\bibitem{hipaajournal_moveit_2023}
+HIPAA Journal.
+\newblock Progress software patches another critical flaw in moveit transfer.
+\newblock
+  \url{https://www.hipaajournal.com/progress-software-patches-another-critical-flaw-in-moveit-transfer/},
+  2023.
+\newblock Accessed: 2025-03-02.
+
+\bibitem{maine_state_moveit_2023}
+State of~Maine.
+\newblock State of maine impacted by global moveit security incident.
+\newblock
+  \url{https://www.maine.gov/dafs/news/state-maine-impacted-global-moveit-security-incident},
+  2023.
+\newblock Accessed: 2025-03-02.
+
 \bibitem{Progress_MOVEit_Privacy_2022}
 {Progress Software Corporation}.
 \newblock Privacy, security standards, and auditing requirements.
@@ -15,5 +104,38 @@
   \url{https://docs.progress.com/bundle/moveit-transfer-web-admin-help-2022/page/Privacy-Security-Standards-and-Auditing-Requirements.html},
   2022.
 \newblock Accessed: 2025-11-26.
+
+\bibitem{progress_trust_moveit_2023}
+Progress Software.
+\newblock Moveit transfer and moveit cloud vulnerability.
+\newblock
+  \url{https://www.progress.com/trust-center/moveit-transfer-and-moveit-cloud-vulnerability},
+  2023.
+\newblock Accessed: 2025-03-02.
+
+\bibitem{progress_gdpr_2023}
+Progress Software.
+\newblock Old file transfer tools can lead to gdpr non-compliance.
+\newblock
+  \url{https://www.progress.com/blogs/old-file-transfer-tools-can-lead-to-gdpr-non-compliance},
+  2023.
+\newblock Accessed: 2025-03-02.
+
+\bibitem{progress_investor_2024}
+Progress Software.
+\newblock Progress announces conclusion of sec investigation into moveit.
+\newblock
+  \url{https://investors.progress.com/news-releases/news-release-details/progress-announces-conclusion-sec-investigation-moveit},
+  2024.
+\newblock Accessed: 2025-03-02.
+
+\bibitem{techcrunch_amazon_2024}
+TechCrunch.
+\newblock Amazon confirms employee data stolen after hacker claims moveit
+  breach.
+\newblock
+  \url{https://techcrunch.com/2024/11/11/amazon-confirms-employee-data-stolen-after-hacker-claims-moveit-breach/},
+  2024.
+\newblock Accessed: 2025-03-02.
 
 \end{thebibliography}

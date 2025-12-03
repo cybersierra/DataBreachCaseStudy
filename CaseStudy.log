@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.20)  26 NOV 2025 23:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.20)  3 DEC 2025 12:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -251,24 +251,24 @@ File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
 ) (CaseStudy.aux)
 \openout1 = `CaseStudy.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -323,12 +323,12 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\CeceS\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 30.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
+Package hyperref Info: Link coloring OFF on input line 38.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
  (C:\Users\CeceS\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
  (C:\Users\CeceS\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (CaseStudy.toc
@@ -345,36 +345,62 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 [3]
 
-[4] (CaseStudy.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 12--18
-[]$\T1/cmtt/m/n/12 https : / / docs . progress . com / bundle / moveit-[]transfer-[]web-[]admin-[]help-[]2022 /
+[4]
+
+[5]
+
+[6] (CaseStudy.bbl
+Underfull \hbox (badness 1895) in paragraph at lines 28--34
+[]\T1/cmr/m/n/12 SBS Cy-ber-Se-cu-rity.  Threat ad-vi-sory: Moveit trans-fer zero-day vul-ner-a-bil-ity.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--18
-\T1/cmtt/m/n/12 page / Privacy-[]Security-[]Standards-[]and-[]Auditing-[]Requirements . html$[]\T1/cmr/m/n/12 , 2022.
+Underfull \hbox (badness 1590) in paragraph at lines 28--34
+[]$\T1/cmtt/m/n/12 https : / / sbscyber\OML/cmm/m/it/12 :\T1/cmtt/m/n/12 com / blog / threat -[] advisory -[] moveit -[] transfer -[] zero -[] day -[]
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 61--67
+[]\T1/cmr/m/n/12 Emsisoft.  Un-pack-ing the moveit breach: Statis-tics and anal-y-sis.  []$\T1/cmtt/m/n/12 https : / /
+ []
+
+
+
+[7]
+Underfull \hbox (badness 1648) in paragraph at lines 109--115
+[]\T1/cmr/m/n/12 Progress Soft-ware.  Moveit trans-fer and moveit cloud vul-ner-a-bil-ity.  []$\T1/cmtt/m/n/12 https :
+ []
+
+
+Underfull \hbox (badness 7186) in paragraph at lines 109--115
+\T1/cmtt/m/n/12 / / www\OML/cmm/m/it/12 :\T1/cmtt/m/n/12 progress\OML/cmm/m/it/12 :\T1/cmtt/m/n/12 com / trust -[] center / moveit -[] transfer -[] and -[] moveit -[] cloud -[]
+ []
+
+
+Underfull \hbox (badness 3449) in paragraph at lines 125--131
+[]\T1/cmr/m/n/12 Progress Soft-ware.  Progress an-nounces con-clu-sion of sec in-ves-ti-ga-tion into
  []
 
 )
 
-[5] (CaseStudy.aux)
+[8] (CaseStudy.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 10784 strings out of 468081
- 164158 string characters out of 5425788
- 578759 words of memory out of 5000000
- 39285 multiletter control sequences out of 15000+600000
+ 10817 strings out of 468081
+ 164913 string characters out of 5425788
+ 580402 words of memory out of 5000000
+ 39300 multiletter control sequences out of 15000+600000
  643228 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,884b,462s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk>
-Output written on CaseStudy.pdf (5 pages, 152486 bytes).
+ 75i,6n,79p,987b,556s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\CeceS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/CeceS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+Output written on CaseStudy.pdf (8 pages, 190238 bytes).
 PDF statistics:
- 547 PDF objects out of 1000 (max. 8388607)
- 36 named destinations out of 1000 (max. 500000)
+ 652 PDF objects out of 1000 (max. 8388607)
+ 54 named destinations out of 1000 (max. 500000)
  209 words of extra memory for PDF output out of 10000 (max. 10000000)
 
